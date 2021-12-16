@@ -1,0 +1,72 @@
+body {
+  color: #fff;
+  font-family: 'opensans';
+  overflow: -moz-scrollbars-none;
+  user-select: none;
+  background-color: #000000;
+  overflow-x: hidden;
+
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+.container {
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.one-page {
+  padding: 150px 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 74px;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  max-width: 765px;
+  margin-bottom: 150px;
+}
+
+.subtitle {
+  max-width: 710px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  margin-left: auto;
+  margin-right: 120px;
+
+  span {
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+.gridient_line {
+  height: 4px;
+  width: 100%;
+  background: radial-gradient(hsla(176, 100%, 54%, 1) 0,
+      hsla(0, 0%, 100%, 1) 40%,
+      hsla(284, 100%, 50%, 1) 100%);
+  background-position: 0 0;
+  animation: background 60s infinite alternate;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0 0
+  }
+
+  100% {
+    background-position: 10000px 0
+  }
+}

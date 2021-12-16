@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gagarin Digital</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <button class="menu-btn" id="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <a class="scroll-btn" href="#firstPage">
+    <span class="scroll-btn__text">Поехали!</span>
+    <button class="scroll-btn__icon"></button>
+  </a>
+
+  <nav class="nav">
+    <a class="logo nav__logo" href="#">
+      <picture>
+        <source srcset="images/logo-mobile.svg" media="(max-width: 800px)">
+        <img src="images/logo-f.svg" alt="logo">
+      </picture>
+    </a>
+    <ul class="nav__list">
+      <li class="nav__item" data-menuanchor="secondPage">
+        <a class="nav__link nav__link--one" href="#secondPage">услуги</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link nav__link--two" href="portfolio.html">проекты</a>
+      </li>
+      <li class="nav__item" data-menuanchor="fivePage">
+        <a class="nav__link nav__link--three" href="#fivePage">связаться</a>
+      </li>
+    </ul>
+    <div class="nav-contacts">
+      <div class="nav-contacts__item">
+        <a class="nav-contacts__link" href="mailto:hello@gagarin.digital">hello@gagarin.digital</a>
+        <a class="nav-contacts__link" href="tel:+79262490742">+7 (926) 249-07-42</a>
+      </div>
+      <div class="nav-contacts__item">
+        <address class="nav-contacts__address">
+          115035, г. Москва, Космодамианская
+          набережная, д. 36
+          Работаем 5/2: c 10:00 – 20:00
+        </address>
+      </div>
+      <div class="nav-contacts__item social-item">
+        <a class="nav-contacts__social" href="#">
+          <img src="images/inst.svg" alt="instagram">
+        </a>
+        <a class="nav-contacts__social" href="#">
+          <img src="images/telegram.svg" alt="telegram">
+        </a>
+        <a class="nav-contacts__social" href="#">
+          <img src="images/facebook.svg" alt="facebook">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header section" id="header">
+    <a class="header__logo" href="#">
+      <picture>
+        <source srcset="images/logo-mobile.svg" media="(max-width: 800px)">
+        <img src="images/logo-f.svg" alt="logo">
+      </picture>
+    </a>
+    <a class="header__phone" href="tel:+79262490742">+7 (926) 249-07-42</a>
+    <div class="container header__container">
+      <div class="header__inner">
+        <h2 class="header__subtitle">ПриЕм! Говорит</h2>
+        <h1 class="header__title">Gagarin Digital</h1>
+        <div class="header__box">
+          <a class="header__application" href="#">оставить заявку</a>
+          <p class="header__text">Ваш спутник в пространстве цифровой рекламы.
+            Приготовьтесь: начинаем глубокое продвижение!</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-container">
+      <video class="video" muted autoplay loop src="images/video-bg.mp4"></video>
+    </div>
+
+  </header>
+
+  <section class="one-page first-section" id="firstPage">
+    <div class="container">
+      <h2 class="title first-section__title" data-aos="fade-right">
+        космическое <br>
+        спокойствие –
+      </h2>
+      <p class="subtitle first-section__subtitle" data-aos="fade-left">
+        его вы почувствуете, когда начнёте работать с Gagarin Digital.
+        <span>
+          Вам больше не придётся волноваться:
+        </span>
+      </p>
+      <div class="first-section__items">
+        <div class="first-section__item" data-aos="fade-up" data-aos-delay="200">
+          <p class="first-section__quest">
+            сработает ли <br>
+            реклама
+          </p>
+        </div>
+        <div class="first-section__item" data-aos="fade-up" data-aos-delay="350">
+          <p class="first-section__quest">
+            правильно ли <br>
+            выбраны площадки
+          </p>
+        </div>
+        <div class="first-section__item" data-aos="fade-up" data-aos-delay="500">
+          <p class="first-section__quest">
+            считываются ли <br>
+            визуал и айдентика
+          </p>
+        </div>
+        <div class="first-section__item" data-aos="fade-up" data-aos-delay="650">
+          <p class="first-section__quest">
+            будут ли тексты – <br>
+            продавать
+          </p>
+        </div>
+        <div class="first-section__item" data-aos="fade-up" data-aos-delay="800">
+          <p class="first-section__quest">
+            грамотно ли настроен <br>
+            таргет в социальных сетях
+          </p>
+        </div>
+      </div>
+      <p class="first-section__text" data-aos="fade-up" data-aos-delay="850">
+        <span>
+          Волноваться будем мы.
+        </span>
+        Наша команда позаботится, чтобы каждый элемент вашего продвижения функционировал без сбоев. Просто
+        наслаждайтесь
+        полётом.
+      </p>
+    </div>
+  </section>
+
+  <div class="gridient_line"></div>
+
+  <section class="one-page two-section" id="secondPage">
+    <div class="container">
+      <h2 class="title two-section__title" data-aos="fade-right">что мы делаем</h2>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="100">
+        <div class="accordion__num">01</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Запускаем рекламу по модели PPC
+          </h6>
+          <p class="accordion__text">
+            Разрабатываем стратегию продвижения; занимаемся поисковой рекламой в Google и Яндекс; создаём баннеры и
+            настраиваем
+            таргетинг в Фейсбуке, в ВКонтакте, через MyTarget.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="150">
+        <div class="accordion__num">02</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Разрабатываем сайты
+          </h6>
+          <p class="accordion__text">
+            Верстаем, программируем, размещаем сайты.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="200">
+        <div class="accordion__num">03</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Настраиваем SEO
+          </h6>
+          <p class="accordion__text">
+            Анализируем конкурентов и органический трафик, собираем семантическое ядро, разрабатываем стратегию
+            продвижения в
+            поисковиках.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="250">
+        <div class="accordion__num">04</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Cнимаем рекламные ролики
+          </h6>
+          <p class="accordion__text">
+            Разрабатываем концепции, пишем сценарии, готовим референсы. Организуем и проводим съёмки.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="300">
+        <div class="accordion__num">05</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Помогаем в SMM
+          </h6>
+          <p class="accordion__text">
+            Разрабатываем контент-план, оформляем и ведём аккаунты, пишем продающие и вовлекающие тексты.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="350">
+        <div class="accordion__num">06</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Создаём коммерческий дизайн
+          </h6>
+          <p class="accordion__text">
+            Разрабатываем гайды по фирменному стилю, веб-дизайн для сайтов и лендингов; полиграфический и графический
+            дизайн.
+          </p>
+        </div>
+      </div>
+      <div class="two-section__item accordion" data-aos="fade-up" data-aos-delay="400">
+        <div class="accordion__num">07</div>
+        <div class="accordion__wrap">
+          <h6 class="accordion__title">
+            Пишем тексты для продвижения
+          </h6>
+          <p class="accordion__text">
+            Создаём нативные статьи; контент для баннеров, лендингов, сайтов; слоганы; тексты пользовательского
+            интерфейса.
+            Подбираем стилистику. Переводим книги.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gridient_line"></div>
+
+  <section class="one-page three-section" id="thirdPage">
+    <div class="container">
+      <h2 class="three-section__title title" data-aos="fade-right">
+        Приветствуем
+        на борту
+      </h2>
+      <p class="three-section__subtitle subtitle" data-aos="fade-left">
+        Тех, кто устал от безликих креативов и невнятной отчётности.
+        Тех, кто хочет понять, почему мало клиентов.
+        Тех, кому нужно глубокое погружение в специфику продукта.
+        <span>
+          Работаем как с крупными компаниями,
+          так и с небольшими стартапами.
+        </span>
+      </p>
+      <div class="clients" data-aos="fade-up">
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-1.png" alt="клиент">
+          </a>
+
+        </div>
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-2.png" alt="клиент">
+          </a>
+        </div>
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-3.png" alt="клиент">
+          </a>
+        </div>
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-4.png" alt="клиент">
+          </a>
+        </div>
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-5.png" alt="клиент">
+          </a>
+        </div>
+        <div class="clients__slide">
+          <a href="#">
+            <img src="images/client-6.png" alt="клиент">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gridient_line"></div>
+
+  <section class="one-page for-section" id="fourthPage">
+    <div class="container">
+      <h2 class="for-section__title title" data-aos="fade-right">
+        наши проекты
+      </h2>
+      <a class="for-section__link" href="#">Смотреть все</a>
+      <div class="for-section__work work">
+        <a class="work__item" href="ddx.html" data-aos="flip-up" data-aos-delay="200" data-aos-duration='1500'>
+          <div class="work__image">
+            <img class="work__img" src="images/portfolio-1.png" alt="портфолио">
+            <div class="work__hover">
+              смотреть
+            </div>
+          </div>
+          <h4 class="work__title">промо для ddx fitness</h4>
+        </a>
+        <a class="work__item" href="all-stars.html" data-aos="flip-up" data-aos-delay="400" data-aos-duration='1500'>
+          <div class="work__image">
+            <img class="work__img" src="images/portfolio-2.png" alt="портфолио">
+            <div class="work__hover">
+              смотреть
+            </div>
+          </div>
+          <h4 class="work__title">Контекстная реклама и SMM
+            для All Stars</h4>
+        </a>
+        <a class="work__item" href="Lithunters.html" data-aos="flip-up" data-aos-delay="600" data-aos-duration='1500'>
+          <div class="work__image">
+            <img class="work__img" src="images/portfolio-3.png" alt="портфолио">
+            <div class="work__hover">
+              смотреть
+            </div>
+          </div>
+          <h4 class="work__title">Адаптация и продвижение книг: Lithunters</h4>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="one-page five-section" id="fivePage">
+    <div class="marquee">
+      <div class="marquee__inner">
+        <span class="marquee__text">
+          продвижение за горизонт
+        </span>
+        <span class="marquee__text">
+          продвижение за горизонт
+        </span>
+        <span class="marquee__text">
+          продвижение за горизонт
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="title five-section__title" data-aos="fade-right" data-aos-delay="300">сигнальте</h2>
+      <form class="form" action="#" data-aos="fade-left" data-aos-delay="300">
+        <input class="form__input" type="text" placeholder="ФИО">
+        <input class="form__input" type="text" placeholder="Почта / телефон">
+        <textarea class="form__textarea" placeholder="Кратко опишите свой проект"></textarea>
+        <div class="form__wrap">
+          <button class="form__btn" type="submit">Прием!</button>
+          <div class="form__conditions">
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox">
+              <span class="checkbox__icon"></span>
+              <span class="checkbox__title">Согласен (-на) на обработку персональных данных</span>
+            </label>
+            <div class="form__icon">
+              Ответим в течение часа
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <video class="video" muted autoplay loop src="images/video-bg.mp4"></video>
+  </section> -->
+
+  <!-- <footer class="footer" id="footer" data-aos="fade-up" data-aos-delay="300">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__column">
+          <a class="footer__logo" href="#">
+            <img src="images/logo-f.svg" alt="logo">
+          </a>
+          <p class="footer__text">
+            <span>
+              © 2021 Gagarin Digital
+            </span>
+            Любое использование либо копирование материалов
+            или подборки материалов сайта, элементов дизайна
+            и оформления допускается лишь с разрешения правообладателя и только со ссылкой на источник:
+          </p>
+        </div>
+        <div class="footer__column">
+          <a class="footer__contact" href="mailto:hello@gagarin.digital">hello@gagarin.digital</a>
+          <a class="footer__contact" href="tel:+792624907-42">+7 (926) 249-07-42</a>
+          <address class="footer__address">115035, г. Москва, Космодамианская набережная, д. 36
+            Работаем 5/2: c 10:00 – 20:00</address>
+          <div class="footer__social">
+            <a class="footer__link" href="#">
+              <img src="images/inst.svg" alt="instagram">
+            </a>
+            <a class="footer__link" href="#">
+              <img src="images/telegram.svg" alt="telegram">
+            </a>
+            <a class="footer__link" href="#">
+              <img src="images/facebook.svg" alt="facebook">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
