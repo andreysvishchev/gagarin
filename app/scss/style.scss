@@ -19,7 +19,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  // height: 100%;
 }
 
 .header {
@@ -668,11 +667,14 @@
 
 .five-section {
   position: relative;
-  width: 100%;
-
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 
   &__title {
-    margin-bottom: 150px;
+    margin: 100px 0;
+    position: relative;
+    z-index: 100;
   }
 }
 

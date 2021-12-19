@@ -4,9 +4,12 @@ $(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [{
-        breakpoint: 970,
+        breakpoint: 996,
         settings: {
-          dots: true
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 1500
         }
       },
       {
@@ -14,7 +17,10 @@ $(function () {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          dots: true
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 1500
         }
       },
       {
@@ -22,7 +28,10 @@ $(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          dots: true
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 1500
         }
       }
     ]

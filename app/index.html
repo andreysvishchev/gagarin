@@ -301,7 +301,11 @@
       <div class="for-section__work work">
         <a class="work__item" href="ddx.html" data-aos="flip-up" data-aos-delay="200" data-aos-duration='1500'>
           <div class="work__image">
-            <img class="work__img" src="images/portfolio-1.png" alt="портфолио">
+            <picture class="work__img">
+              <source srcset="images/portfolio-1.png" media="(max-width: 600px)">
+              <source srcset="images/work-4.jpg" media="(max-width: 1200px)">
+              <img src="images/portfolio-1.png" alt="портфолио">
+            </picture>
             <div class="work__hover">
               смотреть
             </div>
@@ -310,7 +314,11 @@
         </a>
         <a class="work__item" href="all-stars.html" data-aos="flip-up" data-aos-delay="400" data-aos-duration='1500'>
           <div class="work__image">
-            <img class="work__img" src="images/portfolio-2.png" alt="портфолио">
+            <picture class="work__img">
+              <source srcset="images/portfolio-2.png" media="(max-width: 600px)">
+              <source srcset="images/work-3.png" media="(max-width: 1200px)">
+              <img src="images/portfolio-2.png" alt="портфолио">
+            </picture>
             <div class="work__hover">
               смотреть
             </div>
@@ -320,7 +328,11 @@
         </a>
         <a class="work__item" href="Lithunters.html" data-aos="flip-up" data-aos-delay="600" data-aos-duration='1500'>
           <div class="work__image">
-            <img class="work__img" src="images/portfolio-3.png" alt="портфолио">
+            <picture class="work__img">
+              <source srcset="images/portfolio-3.png" media="(max-width: 600px)">
+              <source srcset="images/work-2.png" media="(max-width: 1200px)">
+              <img src="images/portfolio-3.png" alt="портфолио">
+            </picture>
             <div class="work__hover">
               смотреть
             </div>
@@ -331,7 +343,10 @@
     </div>
   </section>
 
-  <!-- <section class="one-page five-section" id="fivePage">
+  <section class="five-section" id="fivePage">
+    <div class="video-container">
+      <video class="video" muted autoplay loop src="images/video-bg.mp4"></video>
+    </div>
     <div class="marquee">
       <div class="marquee__inner">
         <span class="marquee__text">
@@ -344,10 +359,10 @@
           продвижение за горизонт
         </span>
       </div>
-    </div>
-    <div class="container">
-      <h2 class="title five-section__title" data-aos="fade-right" data-aos-delay="300">сигнальте</h2>
-      <form class="form" action="#" data-aos="fade-left" data-aos-delay="300">
+    </div> -->
+    <div class="container five-section__container">
+      <h2 class="title five-section__title">сигнальте</h2>
+      <form class="form" action="#" data-aos="fade-up">
         <input class="form__input" type="text" placeholder="ФИО">
         <input class="form__input" type="text" placeholder="Почта / телефон">
         <textarea class="form__textarea" placeholder="Кратко опишите свой проект"></textarea>
@@ -366,11 +381,10 @@
         </div>
       </form>
     </div>
-    <video class="video" muted autoplay loop src="images/video-bg.mp4"></video>
-  </section> -->
+  </section>
 
-  <!-- <footer class="footer" id="footer" data-aos="fade-up" data-aos-delay="300">
-    <div class="container">
+  <footer class="footer" id="footer">
+    <div class="container" data-aos="fade-up">
       <div class="footer__inner">
         <div class="footer__column">
           <a class="footer__logo" href="#">
@@ -404,7 +418,7 @@
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
